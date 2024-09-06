@@ -1,0 +1,19 @@
+.icono-containedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px; 
+    height: 40vh;
+    position:relative;
+    left: -2px;
+  }
+
+  .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    width: 300px; 
+    margin: 0 auto;
+  }
+
