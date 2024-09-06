@@ -17,3 +17,24 @@
     margin: 0 auto;
   }
 
+  .boton{
+    --background: #3bb36d;
+    margin-top: 20px;
+    display: block;
+    position: relative;
+    left: 587px;
+}
+
+.enlace-cont {
+    display: flex;
+    justify-content: flex-end; /* Alinea el enlace a la derecha del contenedor */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    margin-top: 10px; /* Ajusta el margen superior si es necesario */
+    position: relative;
+    right: 510px;
+  }
+  
+  .enlace-cont a {
+    color: darkslategrey; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace si lo deseas */
+  }

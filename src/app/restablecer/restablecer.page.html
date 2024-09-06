@@ -1,16 +1,9 @@
 
-
-
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>Restablecer contraseña a asistencia Duoc UC</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<div class="icono-containedor">
-  <ion-icon name="person-circle-outline" style="font-size: 80px; color: #696969;"></ion-icon>
-</div>
-
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
@@ -19,15 +12,18 @@
     </ion-toolbar>
   </ion-header>
 
-
-  <ion-icon name="person-circle-outline"></ion-icon>
-
-  <div class="contenedor">
-    <ion-input label="Usuario" label-placement="floating" fill="outline" placeholder="Email@gmail.com"></ion-input>
+  <div class="icono-containedor">
+    <ion-icon name="person-circle-outline" style="font-size: 80px; color: #696969;"></ion-icon>
   </div>
 
-  <ion-button color="success">RECUPERAR</ion-button>
+  <div class="contenedor">
+    <ion-input label="Ingresa usuario" label-placement="floating" fill="outline" placeholder="Email@gmail.com"></ion-input>
+  </div>
 
+  <div class="boton" ><a href="/acceso"><ion-button color="success">RECUPERAR</ion-button>
+    
+  </a></div>
+ 
   <div class="enlace-cont">
     <a href="/acceso">
       <small>Volver</small>

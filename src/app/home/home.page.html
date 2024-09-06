@@ -17,4 +17,12 @@
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+
+  <ion-progress-bar type="indeterminate" *ngIf="loading"></ion-progress-bar>
+  <!-- Aquí va el contenido de tu página -->
+  <div *ngIf="!loading">
+    <p>Contenido cargado</p>
+    <!-- Resto del contenido -->
+  </div>
+
 </ion-content>
